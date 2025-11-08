@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work - Portfolio</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Custom styles to apply the Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#23272A] text-gray-200">
+           <nav class="navb2-navbar">
+        <div class="navb2-logo"><a href="index.html">HUSSAIN</a></div>
+        
+        <!-- Hamburger menu icon for mobile -->
+        <div class="navb2-hamburger" onclick="toggleMenu()">
+            <span class="navb2-bar"></span>
+            <span class="navb2-bar"></span>
+            <span class="navb2-bar"></span>
+        </div>
+        
+        <ul class="navb2-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li class="navb2-dropdown">
+                <a href="#" class="actv">PORTFOLIO <i class="fas fa-caret-down"></i></a>
+                <ul class="navb2-dropdown-menu">
+                          <li><a href="branding.html">Branding</a></li>
+                    <li><a href="logo.html">Logo Design</a></li>
+                    <li><a href="thumnail2.html">Thumnail/Banner</a></li>
+              
+                </ul>
+            </li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        
+        <!-- <a href="contact.html" class="navb2-button">Contact Us</a>
+        <a href="login.html" class="navb2-button">Login</a>
+        <a href="register.html" class="navb2-button">Register</a> -->
+
+<div class="navb2-buttons">
+            <a href="contact.html" class="navb2-button">Contact Us</a>
+            <a href="login.html" class="navb2-button navb2-button-secondary">Login</a>
+            <a href="register.html" class="navb2-button navb2-button-secondary">Register</a>
+        </div>
+    </nav>
+
+    </nav>
+
+<script>
+    function toggleMenu() {
+    const menu = document.querySelector('.navb2-menu');
+    const hamburger = document.querySelector('.navb2-hamburger');
+    // Select the new button container
+    const buttons = document.querySelector('.navb2-buttons');
+
+    menu.classList.toggle('navb2-active');
+    hamburger.classList.toggle('navb2-active');
+}
+</script>
+
+    <!-- Main Container -->
+    <div class="container mx-auto px-4 sm:px-6 py-12 md:py-24">
+        
+        <!-- Header Section -->
+        <div class="text-center mb-12 md:mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Our Portfolio</h1>
+            <p class="text-lg text-gray-400 max-w-3xl mx-auto">
+                Here are some of the projects we're proud of. We love turning ideas into beautiful, functional designs.
+            </p>
+        </div>
+        
+        <!-- Portfolio Grid -->
+       <div class="bgchange">
+         <div class="bchange2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Portfolio Item 1 -->
+            <!-- Aap yahan apni image aur text daal sakte hain -->
+                   <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/Copilot_20250827_205934.png" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+                        <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/now (1).jpg" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/now (3).jpg" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/333.jpeg" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/New Project (33).png" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+           
+            <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/New Project (27).png" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+
+                 <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/WhatsApp Image 2025-08-26 at 2.54.17 PM.jpeg" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+             <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/WhatsApp Image 2025-08-26 at 2.50.24 PM (1).jpeg" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/WhatsApp Image 2025-08-26 at 2.54.18 PM.jpeg" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/Copilot_20250831_113007.png" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+
+            <div class=" bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/01-968.webp" alt="Portfolio sample 1" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title One</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 2 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class=" object-cover w-full h-full" src="img1/branding/Cleanser 1.png" alt="Portfolio sample 2" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Two</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 3 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/ChatGPT Image Aug 27, 2025, 09_25_05 PM (2).jpg" alt="Portfolio sample 3" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Three</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 5 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/ChatGPT Image Aug 31, 2025, 10_57_14 AM (1).jpg" alt="Portfolio sample 5" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Five</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+                   
+            <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/ChatGPT Image Aug 27, 2025, 10_09_25 PM.jpg" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/WhatsApp Image 2025-05-07 at 5.30.34 PM.jpeg" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/New Project (20).jpg" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/10">
+                <div class="widthoofimg aspect-w-4 aspect-h-3">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/branding/WhatsApp Image 2025-04-22 at 8.40.00 PM.jpeg" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x450/2c2f33/FFFFFF?text=Image+Not+Found';">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">Project Title Six</h3>
+                    <p class="text-gray-400">A short description of the project goes here. Explain the work you did.</p>
+                </div>
+            </div>
+
+       
+          
+        </div>
+       </div>
+        
+    </div>
+
+       
+    <div class="bgfooter">
+            <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Address</h3>
+                <p>OKara Cantt <br> Okara, Punjab Pakistan.</p>
+                <button class="contact-btn">Contact Us</button>
+            </div>
+            <div class="footer-column">
+                <h3>Say Hello</h3>
+                <a href="mailto:contact@daniyalali.com">hussain0786cit@gmail</a>
+                <span class="phone-number">+92 3327679125</span>
+            </div>
+            <div class="footer-column">
+                <h3>Portfolio</h3>
+                <ul>
+                    <li><a href="portfolio.html">Logo Design</a></li>
+                    <li><a href="portfolio.html">Packaging Design</a></li>
+                    <li><a href="portfolio.html">Social Media Post</a></li>
+                    <li><a href="portfolio.html">Branding</a></li>
+                    <li><a href="portfolio.html">Motion Graphics</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="logo">FAQIR HUSSAIN</div>
+            <div class="copyright">
+                &copy; 2025 Copyright FAQIR HUSSAIN
+            </div>
+        </div>
+    </footer>
+    </div>
+
+</body>
+</html>

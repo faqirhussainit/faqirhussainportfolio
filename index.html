@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQIR HUSSAIN - Visual Brand Designer</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+       <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+       <nav class="navb2-navbar">
+        <div class="navb2-logo">HUSSAIN</div>
+        
+        <!-- Hamburger menu icon for mobile -->
+        <div class="navb2-hamburger" onclick="toggleMenu()">
+            <span class="navb2-bar"></span>
+            <span class="navb2-bar"></span>
+            <span class="navb2-bar"></span>
+        </div>
+        
+        <ul class="navb2-menu">
+            <li class="colorlink"><a href="index.html" class="actv">HOME</a></li>
+            <li class="navb2-dropdown">
+                <a href="#">PORTFOLIO <i class="fas fa-caret-down"></i></a>
+                <ul class="navb2-dropdown-menu">
+                          <li><a href="branding.html">Branding</a></li>
+                    <li><a href="logo.html">Logo Design</a></li>
+                    <li><a href="thumnail2.html">Thumnail/Banner</a></li>
+              
+                </ul>
+            </li>
+            <li class="colorlink"><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        
+        <!-- <a href="contact.html" class="navb2-button">Contact Us</a>
+        <a href="login.html" class="navb2-button">Login</a>
+        <a href="register.html" class="navb2-button">Register</a> -->
+
+<div class="navb2-buttons">
+            <a href="contact.html" class="navb2-button">Contact Us</a>
+            <a href="login.html" class="navb2-button navb2-button-secondary">Login</a>
+            <a href="register.html" class="navb2-button navb2-button-secondary">Register</a>
+        </div>
+    </nav>
+
+    </nav>
+
+<script>
+    function toggleMenu() {
+    const menu = document.querySelector('.navb2-menu');
+    const hamburger = document.querySelector('.navb2-hamburger');
+    // Select the new button container
+    const buttons = document.querySelector('.navb2-buttons');
+
+    menu.classList.toggle('navb2-active');
+    hamburger.classList.toggle('navb2-active');
+}
+</script>
+
+ 
+
+   <!-- Hero Section -->
+   <div class="bg-gray-900 text-white">
+     <section class="relative h-screen w-full flex items-center justify-center p-6 overflow-hidden">
+        <!-- Background Video -->
+        <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
+            <!-- IMPORTANT: Replace the 'src' attribute below with the URL of your hosted video file. -->
+            <source src="imgs/6036408_Team_Business_3840x2160.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Overlay for readability -->
+        <div class="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-70 z-0"></div>
+
+        <!-- Main Content -->
+        <div class="relative z-10 max-w-4xl text-center p-8 rounded-lg mts">
+            <h4 class="text-lg text-gray-400 font-medium tracking-widest uppercase mb-4 opacity-0 fade-in-1">
+                HELLO, I'M FAQIR HUSSAIN 
+            </h4>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-8 leading-tight md:leading-snug opacity-0 fade-in-2">
+                A Visual Brand Designer <br> Specializing in Social Media Branding
+            </h1>
+            <a href="contact.html" class="glowing-btn inline-block px-10 py-4 mt-4 text-lg font-bold rounded-full bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl opacity-0 fade-in-3">
+                Contact Me →
+            </a><br><br>
+        </div>
+    </section>
+   </div>
+
+
+    <!-- services -->
+      <section class="services-section">
+        <br><br><br>
+          <div class="featured-pill">
+                <span class="dot"></span> SERVICES <span class="dot right"></span>
+            </div>
+        <h2>Services</h2>
+        <div class="services-cards">
+            <!-- Service Card 1: Logo Designing -->
+            <div class="service-card">
+                <div class="icon">
+                    <i class="fas fa-pencil-ruler"></i> <!-- Example icon, replace with actual -->
+                </div>
+                <h3>Logo Designing</h3>
+                <p>Visualize Your Brand's Vision with a Distinctive Logo. Let Your Logo Speak for You as You Drive Your Business Forward!</p>
+                <a href="#contact" class="contact-link">CONTACT <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Service Card 2: Branding -->
+            <div class="service-card">
+                <div class="icon">
+                    <i class="fas fa-award"></i> <!-- Example icon, replace with actual -->
+                </div>
+                <h3>Branding</h3>
+                <p>Explore the magic of storytelling to create a brand experience that captures hearts instantly. Be memorable, stand out, and win your audience's love!</p>
+                <a href="#contact" class="contact-link">CONTACT <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Service Card 3: Graphic Design -->
+            <div class="service-card">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i> <!-- Example icon, replace with actual -->
+                </div>
+                <h3>Graphic Design</h3>
+                <p>From Concept to Creation Elevate Your Vision with Our Design Wizards' Expertise in Crafting Eye-Catching Graphics!</p>
+                <a href="#contact" class="contact-link">CONTACT <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+   
+
+        <br><br><br>
+         <div class="services-cards">
+            <!-- Service Card 1: Logo Designing -->
+            <div class="service-card">
+                <div class="icon">
+                    <i class="fas fa-pencil-ruler"></i> <!-- Example icon, replace with actual -->
+                </div>
+                <h3>Thumnail</h3>
+                <p>Visualize Your Brand's Vision with a Distinctive Logo. Let Your Logo Speak for You as You Drive Your Business Forward!</p>
+                <a href="#contact" class="contact-link">CONTACT <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Service Card 2: Branding -->
+            <div class="service-card">
+                <div class="icon">
+                    <i class="fas fa-award"></i> <!-- Example icon, replace with actual -->
+                </div>
+                <h3>Motion Graphics</h3>
+                <p>Explore the magic of storytelling to create a brand experience that captures hearts instantly. Be memorable, stand out, and win your audience's love!</p>
+                <a href="#contact" class="contact-link">CONTACT <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Service Card 3: Graphic Design -->
+            <div class="service-card">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i> <!-- Example icon, replace with actual -->
+                </div>
+                <h3>Social Media Posts</h3>
+                <p>From Concept to Creation Elevate Your Vision with Our Design Wizards' Expertise in Crafting Eye-Catching Graphics!</p>
+                <a href="#contact" class="contact-link">CONTACT <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- services end -->
+
+    <!-- band -->
+     <br><br><br>
+     <section class="animated-band-section">
+        
+        <div class="animated-band-content">
+            <span class="animated-band-item">Logo Design <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Packaging Design <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Social Media Post <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Branding <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Motion Graphics <span class="asterisk">*</span></span>
+            <!-- Duplicate content multiple times to ensure continuous loop without gaps -->
+            <span class="animated-band-item">Logo Design <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Packaging Design <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Social Media Post <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Branding <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Motion Graphics <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Logo Design <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Packaging Design <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Social Media Post <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Branding <span class="asterisk">*</span></span>
+            <span class="animated-band-item">Motion Graphics <span class="asterisk">*</span></span>
+        </div>
+    </section>
+    <!-- band end -->
+
+    <!-- projects -->
+     <section class="logo-display-section">
+        <br>
+        <div class="section-header">
+            <div class="featured-pill">
+                <span class="dot"></span> FEATURED <span class="dot right"></span>
+            </div>
+            <h2 class="section-title">Projects</h2>
+        </div>
+        <div class="logo-grid">
+            <!-- Image Item 1 -->
+            <div class="logo-item">
+                <div class="logo-image-container">
+                    <img src="imgs/WhatsApp Image 2025-05-07 at 5.30.34 PM.jpeg" alt="Image 1"c:\Users\Abdul Ghafoor\Downloads\New Project (26).jpg>
+                </div>
+            </div>
+
+            <!-- Image Item 2 -->
+            <div class="logo-item">
+                <div class="logo-image-container">
+                    <img src="imgs/New Project (15).jpg" alt="Image 2">
+                </div>
+            </div>
+
+            <!-- Image Item 3 -->
+            <div class="logo-item">
+                <div class="logo-image-container">
+                    <img src="imgs/New Project (2).png" alt="Image 3">
+                </div>
+            </div>
+
+            <!-- Image Item 4 -->
+            <div class="logo-item">
+                <div class="logo-image-container">
+                    <img src="imgs/01-968.webp" alt="Image 4">
+                </div>
+            </div>
+
+            <!-- Image Item 5 -->
+            <div class="logo-item">
+                <div class="logo-image-container">
+                    <img src="imgs/image (1).png" alt="Image 5">
+                </div>
+            </div>
+
+            <!-- Image Item 6 -->
+            <div class="logo-item">
+                <div class="logo-image-container">
+                    <img src="imgs/Copilot_20250827_205934.png" alt="Image 6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- projects end -->
+
+    <!-- about -->
+        
+<div class="boxred">
+    <section class="services-section">
+        <br><br>&nbsp;&nbsp;&nbsp;
+          <div class="featured-pill"> 
+                <span class="dot"></span> ABOUT ME <span class="dot right"></span>
+            </div>
+        <h2>About</h2>
+</div>
+
+    <div class="boxred">
+          <section class="about-section">
+        
+        <div class="about-image-container">
+            
+            <img src="imgs/Gemini_Generated_Image_oo34mroo34mroo34 (6).png" alt="FAQIR HUSSAIN ">
+            <!-- Social Media Floating Icons -->
+            <a href="#" class="social-icon-float facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon-float youtube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-icon-float tiktok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="social-icon-float instagram"><i class="fab fa-instagram"></i></a>
+            <span class="social-icon-float d-logo">d</span>
+        </div>
+        <div class="about-content">
+            <p class="subheading">ABOUT ME</p>
+            <h2>I'm FAQIR HUSSAIN  <br> Graphic Designer</h2>
+            <p>I am a professional Graphic Designer with a strong focus on building impactful digital identities and helping clients grow their online presence. I create visually compelling designs that capture attention, communicate clearly, and elevate brand value across digital platforms.</p>
+            <div class="skills-list">
+                <span>Logo Designing</span>
+                <span>Social Media Branding</span>
+                <span>Packaging</span>
+                <span>Motion Graphics</span>
+            </div>
+            <a href="banner.html" class="explore-more-btn">Explore More</a>
+        </div>
+    </section>
+    </div>
+    <!-- about end -->
+
+    <!-- comm -->
+  <section class="services-section">
+        <br><br>&nbsp;&nbsp;&nbsp;
+          <div class="featured-pill"> 
+                <span class="dot"></span> FEATURED <span class="dot right"></span>
+            </div>
+        <h2>Services</h2>
+         <section class="testimonial-section">
+            
+        <section class="services-section">
+        <div class="container">
+         
+
+            <div class="testimonial-wrapper">
+                <div class="testimonial-graphic">
+                  
+                    <img src="imgs/408656211_68ae2c6c-099b-4069-a29f-4c1667e659c5.png" alt="Customer Feedback Illustration">
+                </div>
+
+                <div class="testimonial-content">
+                    <!-- Star rating using Font Awesome icons -->
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <!-- The testimonial quote -->
+                    <p class="quote" id="testimonial-quote">
+                        "Extremely efficient and responsive. Helped me work through my idea when I wasn't certain what I wanted. I'm extremely satisfied with the logo and would definitely work with them again!"
+                    </p>
+                    <div class="author-info">
+                        <!-- Author's avatar with initials -->
+                        <div class="author-avatar" id="author-avatar">JW</div>
+                        <div class="author-details">
+                            <!-- Author's name -->
+                            <span class="author-name" id="author-name">Jahsra Weaver</span>
+                            <!-- Author's title/company -->
+                            <span class="author-title" id="author-title">CEO-Cherry Jubilee</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation arrows for testimonials -->
+            <div class="testimonial-navigation">
+                <button class="nav-arrow prev-arrow" id="prev-testimonial" aria-label="Previous Testimonial"><i class="fas fa-arrow-left"></i></button>
+                <button class="nav-arrow next-arrow" id="next-testimonial" aria-label="Next Testimonial"><i class="fas fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+    </section>
+    </section>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const testimonials = [
+                {
+                    text: "Extremely efficient and responsive. Helped me work through my idea when I wasn't certain what I wanted. I'm extremely satisfied with the logo and would definitely work with them again!",
+                    author: "Jahsra Weaver",
+                    title: "CEO-Cherry Jubilee",
+                    avatar: "https://placehold.co/50x50/ccc/333?text=JW", // Placeholder for Jahsra
+                    rating: 5
+                },
+                {
+                    text: "Daniyal delivered exactly what I envisioned for my social media branding. His attention to detail and creative approach truly made my brand stand out. Highly recommend!",
+                    author: "Alex Johnson",
+                    title: "Marketing Director",
+                    avatar: "https://placehold.co/50x50/ccc/333?text=AJ", // Placeholder for Alex
+                    rating: 4
+                },
+                {
+                    text: "Fantastic work on the packaging design! It exceeded my expectations and has received great feedback from customers. A true professional.",
+                    author: "Maria Garcia",
+                    title: "Product Manager",
+                    avatar: "https://placehold.co/50x50/ccc/333?text=MG", // Placeholder for Maria
+                    rating: 5
+                }
+            ];
+
+            let currentTestimonialIndex = 0;
+
+            const testimonialTextElem = document.getElementById('testimonial-text');
+            const authorNameElem = document.getElementById('author-name');
+            const authorTitleElem = document.getElementById('author-title');
+            const authorAvatarElem = document.getElementById('author-avatar');
+            const testimonialStarsElem = document.getElementById('testimonial-stars');
+            const leftArrowBtn = document.querySelector('.nav-button.left-arrow');
+            const rightArrowBtn = document.querySelector('.nav-button.right-arrow');
+
+            // Function to update the displayed testimonial
+            function updateTestimonial() {
+                const testimonial = testimonials[currentTestimonialIndex];
+                testimonialTextElem.textContent = testimonial.text;
+                authorNameElem.textContent = testimonial.author;
+                authorTitleElem.textContent = testimonial.title;
+                authorAvatarElem.src = testimonial.avatar;
+
+                // Update stars
+                testimonialStarsElem.innerHTML = ''; // Clear existing stars
+                for (let i = 0; i < 5; i++) {
+                    const starIcon = document.createElement('i');
+                    starIcon.classList.add('fas', 'fa-star');
+                    if (i >= testimonial.rating) {
+                        starIcon.style.color = '#555'; // Dim unrated stars
+                    }
+                    testimonialStarsElem.appendChild(starIcon);
+                }
+            }
+
+            // Event listener for left arrow
+            if (leftArrowBtn) {
+                leftArrowBtn.addEventListener('click', () => {
+                    currentTestimonialIndex = (currentTestimonialIndex - 1 + testimonials.length) % testimonials.length;
+                    updateTestimonial();
+                    console.log('Left arrow clicked. Displaying testimonial index:', currentTestimonialIndex);
+                });
+            }
+
+            // Event listener for right arrow
+            if (rightArrowBtn) {
+                rightArrowBtn.addEventListener('click', () => {
+                    currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
+                    updateTestimonial();
+                    console.log('Right arrow clicked. Displaying testimonial index:', currentTestimonialIndex);
+                });
+            }
+
+            // Initialize with the first testimonial
+            updateTestimonial();
+        });
+    </script>
+
+    <!-- comm end -->
+
+    <!-- footer -->
+     
+    <div class="bgfooter">
+            <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Address</h3>
+                <p>OKara Cantt <br> Okara, Punjab Pakistan.</p>
+                <button class="contact-btn">Contact Us</button>
+            </div>
+            <div class="footer-column">
+                <h3>Say Hello</h3>
+                <a href="mailto:hussain0786cit@gmail">hussain0786cit@gmail</a>
+                <span class="phone-number">+92 3327679125</span>
+            </div>
+            <div class="footer-column">
+                <h3>Portfolio</h3>
+                <ul>
+                    <li><a href="logo.html">Logo Design</a></li>
+                    <li><a href="branding.html">Packaging Design</a></li>
+                    <li><a href="portfolio.html">Social Media Post</a></li>
+                    <li><a href="branding.html">Branding</a></li>
+                    <li><a href="portfolio.html">Motion Graphics</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="logo">FAQIR HUSSAIN </div>
+            <div class="copyright">
+                &copy; 2025 Copyright FAQIR HUSSAIN 
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <a href="https://wa.me/923400662003" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+ 
+    <a href="#top" class="scroll-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script>
+        // Smooth scroll for "Scroll to Top" button
+        document.querySelector('.scroll-to-top').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Hide/show scroll to top button based on scroll position
+        window.addEventListener('scroll', function() {
+            const scrollToTopBtn = document.querySelector('.scroll-to-top');
+            if (window.scrollY > 200) { // Show button after scrolling 200px
+                scrollToTopBtn.style.display = 'flex';
+            } else {
+                scrollToTopBtn.style.display = 'none';
+            }
+        });
+        // Ensure button is hidden on initial load if not scrolled
+        window.dispatchEvent(new Event('scroll'));
+    </script>
+    <!-- footer end -->
+
+
+    <!-- The theme switcher box has been removed as requested -->
+
+    <!-- <a href="https://wa.me/yourphonenumber" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a> -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Theme Switcher Logic has been removed as the theme switcher box was removed.
+
+            // Optional: Smooth scrolling for navigation links
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.getElementById('mobile-menu');
+    const mainNav = document.getElementById('main-nav');
+    const portfolioDropdown = document.getElementById('portfolio-dropdown');
+
+    // Toggle mobile menu
+    menuToggle.addEventListener('click', () => {
+        mainNav.classList.toggle('active');
+        menuToggle.classList.toggle('open');
+        // Close portfolio dropdown if it was open when main menu is toggled
+        if (!mainNav.classList.contains('active')) {
+            portfolioDropdown.classList.remove('active');
+        }
+    });
+
+    // Toggle dropdown on mobile
+    // We prevent default behavior for the portfolio link on mobile
+    // to allow the dropdown to toggle without navigating
+    portfolioDropdown.addEventListener('click', (event) => {
+        if (window.innerWidth <= 768) { // Only for mobile viewports
+            // Prevent navigation if it's a mobile click on the main dropdown link
+            if (event.target.closest('li.dropdown') === portfolioDropdown && !event.target.closest('.dropdown-menu')) {
+                event.preventDefault(); // Prevent navigating to #portfolio
+                portfolioDropdown.classList.toggle('active');
+            }
+        }
+    });
+
+    // Close mobile menu and dropdown when a main nav link is clicked
+    document.querySelectorAll('#main-nav > ul > li:not(.dropdown) > a').forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                mainNav.classList.remove('active');
+                menuToggle.classList.remove('open');
+                portfolioDropdown.classList.remove('active'); // Ensure dropdown is also closed
+            }
+        });
+    });
+
+    // Close mobile menu and dropdown when a dropdown link is clicked
+    document.querySelectorAll('.dropdown-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                mainNav.classList.remove('active');
+                menuToggle.classList.remove('open');
+                portfolioDropdown.classList.remove('active');
+            }
+        });
+    });
+});
+
+    </script>
+     <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Array of testimonial data
+            const testimonials = [
+                {
+                    quote: "Extremely efficient and responsive. Helped me work through my idea when I wasn't certain what I wanted. I'm extremely satisfied with the logo and would definitely work with them again!",
+                    author: "Jahsra Weaver",
+                    title: "CEO-Cherry Jubilee",
+                    avatarInitials: "JW"
+                },
+                {
+                    quote: "The team delivered exceptional results and exceeded our expectations. Their attention to detail and creative solutions were truly impressive. Highly recommend their services!",
+                    author: "Michael Chen",
+                    title: "Founder, Tech Innovations",
+                    avatarInitials: "MC"
+                },
+                {
+                    quote: "Working with them was a seamless experience. They understood our vision perfectly and brought it to life with remarkable precision and artistry. A pleasure to collaborate with!",
+                    author: "Sarah Adams",
+                    title: "Marketing Director, Global Brands",
+                    avatarInitials: "SA"
+                }
+            ];
+
+            let currentTestimonialIndex = 0;
+
+            // Get DOM elements
+            const testimonialQuote = document.getElementById('testimonial-quote');
+            const authorName = document.getElementById('author-name');
+            const authorTitle = document.getElementById('author-title');
+            const authorAvatar = document.getElementById('author-avatar');
+            const prevButton = document.getElementById('prev-testimonial');
+            const nextButton = document.getElementById('next-testimonial');
+
+            /**
+             * Updates the testimonial content on the page based on the current index.
+             */
+            function updateTestimonial() {
+                const testimonial = testimonials[currentTestimonialIndex];
+                testimonialQuote.textContent = `"${testimonial.quote}"`;
+                authorName.textContent = testimonial.author;
+                authorTitle.textContent = testimonial.title;
+                authorAvatar.textContent = testimonial.avatarInitials;
+            }
+
+            /**
+             * Handles the click event for the "Next" button.
+             * Cycles to the next testimonial, looping back to the start if at the end.
+             */
+            function showNextTestimonial() {
+                currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
+                updateTestimonial();
+            }
+
+            /**
+             * Handles the click event for the "Previous" button.
+             * Cycles to the previous testimonial, looping to the end if at the start.
+             */
+            function showPrevTestimonial() {
+                currentTestimonialIndex = (currentTestimonialIndex - 1 + testimonials.length) % testimonials.length;
+                updateTestimonial();
+            }
+
+            // Add event listeners to the navigation buttons
+            nextButton.addEventListener('click', showNextTestimonial);
+            prevButton.addEventListener('click', showPrevTestimonial);
+
+            // Initialize the first testimonial on page load
+            updateTestimonial();
+        });
+    </script>
+</body>
+</html>

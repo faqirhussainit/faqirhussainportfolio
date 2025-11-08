@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Secure Access</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Custom styles to apply the Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom focus style for form inputs */
+        .form-input:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px #23272A, 0 0 0 4px #EA580C; /* Dark inner, Orange outer */
+        }
+    </style>
+</head>
+<body class="bg-[#23272A] text-gray-200">
+           <nav class="navb2-navbar">
+        <div class="navb2-logo"><a href="index.html">HUSSAIN</a></div>
+        
+        <!-- Hamburger menu icon for mobile -->
+        <div class="navb2-hamburger" onclick="toggleMenu()">
+            <span class="navb2-bar"></span>
+            <span class="navb2-bar"></span>
+            <span class="navb2-bar"></span>
+        </div>
+        
+        <ul class="navb2-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li class="navb2-dropdown">
+                <a href="#">PORTFOLIO <i class="fas fa-caret-down"></i></a>
+                <ul class="navb2-dropdown-menu">
+                          <li><a href="branding.html">Branding</a></li>
+                    <li><a href="logo.html">Logo Design</a></li>
+                    <li><a href="thumnail2.html">Thumnail/Banner</a></li>
+              
+                </ul>
+            </li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        
+        <!-- <a href="contact.html" class="navb2-button">Contact Us</a>
+        <a href="login.html" class="navb2-button">Login</a>
+        <a href="register.html" class="navb2-button">Register</a> -->
+
+<div class="navb2-buttons">
+            <a href="contact.html" class="navb2-button">Contact Us</a>
+            <a href="register.html" class="navb2-button navb2-button-secondary">Register</a>
+        </div>
+    </nav>
+
+    </nav>
+
+<script>
+    function toggleMenu() {
+    const menu = document.querySelector('.navb2-menu');
+    const hamburger = document.querySelector('.navb2-hamburger');
+    // Select the new button container
+    const buttons = document.querySelector('.navb2-buttons');
+
+    menu.classList.toggle('navb2-active');
+    hamburger.classList.toggle('navb2-active');
+}
+</script>
+
+    <!-- Main Container -->
+    <div class="flex items-center justify-center min-h-screen px-4">
+        
+        <div class="w-full max-w-md bg-[#2c2f33] rounded-2xl shadow-2xl p-8 md:p-12">
+            
+            <!-- Header Section -->
+            <div class="text-center mb-8">
+                <h1 class="text-3xl font-bold text-white mb-2">Welcome Back!</h1>
+                <p class="text-gray-400">Sign in to continue to your account.</p>
+            </div>
+            
+            <!-- Login Form -->
+            <form class="space-y-6">
+                <!-- Email Address -->
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com" class="form-input block w-full bg-[#36393f] border-[#40444b] rounded-md py-3 px-4 text-white placeholder-gray-500 transition duration-300">
+                </div>
+                
+                <!-- Password -->
+                <div>
+                    <div class="flex justify-between items-center mb-2">
+                        <label for="password" class="block text-sm font-medium text-gray-300">Password</label>
+                        <a href="#" class="text-sm text-orange-500 hover:text-orange-400">Forgot password?</a>
+                    </div>
+                    <input type="password" id="password" name="password" required placeholder="••••••••" class="form-input block w-full bg-[#36393f] border-[#40444b] rounded-md py-3 px-4 text-white placeholder-gray-500 transition duration-300">
+                </div>
+                
+                <!-- Submit Button -->
+                <div>
+                    <button type="submit" class="w-full bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-orange-500/50">
+                        Login
+                    </button>
+                </div>
+            </form>
+
+            <!-- Sign Up Link -->
+            <div class="text-center mt-8">
+                <p class="text-gray-400">
+                    Don't have an account? 
+                    <a href="#" class="font-medium text-orange-500 hover:text-orange-400">Sign up</a>
+                </p>
+            </div>
+            
+        </div>
+        
+    </div>
+
+</body>
+</html>

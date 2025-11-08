@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work - Portfolio</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Custom styles to apply the Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#23272A] text-gray-200">
+       <nav class="navb2-navbar">
+        <div class="navb2-logo"><a href="index.html">HUSSAIN</a></div>
+        
+        <!-- Hamburger menu icon for mobile -->
+        <div class="navb2-hamburger" onclick="toggleMenu()">
+            <span class="navb2-bar"></span>
+            <span class="navb2-bar"></span>
+            <span class="navb2-bar"></span>
+        </div>
+        
+        <ul class="navb2-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li class="navb2-dropdown">
+                <a href="#">PORTFOLIO <i class="fas fa-caret-down"></i></a>
+                <ul class="navb2-dropdown-menu">
+                          <li><a href="branding.html">Branding</a></li>
+                    <li><a href="logo.html">Logo Design</a></li>
+                    <li><a href="thumnail2.html">Thumnail/Banner</a></li>
+              
+                </ul>
+            </li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        
+        <!-- <a href="contact.html" class="navb2-button">Contact Us</a>
+        <a href="login.html" class="navb2-button">Login</a>
+        <a href="register.html" class="navb2-button">Register</a> -->
+
+<div class="navb2-buttons">
+            <a href="contact.html" class="navb2-button">Contact Us</a>
+            <a href="login.html" class="navb2-button navb2-button-secondary">Login</a>
+            <a href="register.html" class="navb2-button navb2-button-secondary">Register</a>
+        </div>
+    </nav>
+
+    </nav>
+
+<script>
+    function toggleMenu() {
+    const menu = document.querySelector('.navb2-menu');
+    const hamburger = document.querySelector('.navb2-hamburger');
+    // Select the new button container
+    const buttons = document.querySelector('.navb2-buttons');
+
+    menu.classList.toggle('navb2-active');
+    hamburger.classList.toggle('navb2-active');
+}
+</script>
+    <!-- Main Container -->
+    <div class="container mx-auto px-4 sm:px-6 py-12 md:py-24">
+        
+        <!-- Header Section -->
+        <div class="text-center mb-12 md:mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Our Portfolio</h1>
+            <p class="text-lg text-gray-400 max-w-3xl mx-auto">
+                A collection of our finest work and creative projects.
+            </p>
+        </div>
+            
+
+<div class="bgchange"></div>
+    <!-- Thumbnails Grid -->
+    <main class="bchange2 container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+             <a href="#" class="thumbnail-container block">
+                <div class="thumbnail-card rounded-xl overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="img1/thumnail/maxresdefault (3).jpg" alt="Project Thumbnail" class="thumbnail-image w-full h-auto">
+                    </div>
+                </div>
+            </a>
+            <!-- Thumbnail 1 -->
+            <a href="#" class="thumbnail-container block">
+                <div class="thumbnail-card rounded-xl overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="imgs/7.jpg" alt="Project Thumbnail" class="thumbnail-image w-full h-auto">
+                    </div>
+                </div>
+            </a>
+
+            <!-- Thumbnail 2 -->
+            <a href="#" class="thumbnail-container block">
+                <div class="thumbnail-card rounded-xl overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="imgs/8.avif" alt="Project Thumbnail" class="thumbnail-image w-full h-auto">
+                    </div>
+                </div>
+            </a>
+
+            <!-- Thumbnail 3 -->
+            <a href="#" class="thumbnail-container block">
+                <div class="thumbnail-card rounded-xl overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="imgs/9.avif" alt="Project Thumbnail" class="thumbnail-image w-full h-auto">
+                    </div>
+                </div>
+            </a>
+
+            <!-- Thumbnail 3 -->
+            <a href="#" class="thumbnail-container block">
+                <div class="thumbnail-card rounded-xl overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="img1/thumnail/45.jpg" alt="Project Thumbnail" class="thumbnail-image w-full h-auto">
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="thumbnail-container block">
+                <div class="thumbnail-card rounded-xl overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="imgs/11.jpg" alt="Project Thumbnail" class="thumbnail-image w-full h-auto">
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="thumbnail-container block">
+                <div class="thumbnail-card rounded-xl overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="imgs/12.jpg" alt="Project Thumbnail" class="thumbnail-image w-full h-auto">
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="thumbnail-container block">
+                <div class="thumbnail-card rounded-xl overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="img1/thumnail/New Project (1).jpg" alt="Project Thumbnail" class="thumbnail-image w-full h-auto">
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="thumbnail-container block">
+                <div class="thumbnail-card rounded-xl overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="img1/thumnail/37 ROYAL (1).jpg" alt="Project Thumbnail" class="thumbnail-image w-full h-auto">
+                    </div>
+                </div>
+            </a>
+            
+
+        </div>
+    </main>
+
+
+</div>  
+    <div class="bgfooter">
+            <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Address</h3>
+                <p>OKara Cantt <br> Okara, Punjab Pakistan.</p>
+                <button class="contact-btn">Contact Us</button>
+            </div>
+            <div class="footer-column">
+                <h3>Say Hello</h3>
+                <a href="mailto:contact@daniyalali.com">hussain0786cit@gmail</a>
+                <span class="phone-number">+92 3327679125</span>
+            </div>
+            <div class="footer-column">
+                <h3>Portfolio</h3>
+                <ul>
+                    <li><a href="portfolio.html">Logo Design</a></li>
+                    <li><a href="portfolio.html">Packaging Design</a></li>
+                    <li><a href="portfolio.html">Social Media Post</a></li>
+                    <li><a href="portfolio.html">Branding</a></li>
+                    <li><a href="portfolio.html">Motion Graphics</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="logo">FAQIR HUSSAIN</div>
+            <div class="copyright">
+                &copy; 2025 Copyright FAQIR HUSSAIN
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work - Portfolio</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Custom styles to apply the Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#23272A] text-gray-200">
+       <nav class="navb2-navbar">
+        <div class="navb2-logo"><a href="index.html">HUSSAIN</a></div>
+        
+        <!-- Hamburger menu icon for mobile -->
+        <div class="navb2-hamburger" onclick="toggleMenu()">
+            <span class="navb2-bar"></span>
+            <span class="navb2-bar"></span>
+            <span class="navb2-bar"></span>
+        </div>
+        
+        <ul class="navb2-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li class="navb2-dropdown">
+                <a href="#" class="actv">PORTFOLIO <i class="fas fa-caret-down"></i></a>
+                <ul class="navb2-dropdown-menu">
+                          <li><a href="branding.html">Branding</a></li>
+                    <li><a href="logo.html">Logo Design</a></li>
+                    <li><a href="thumnail2.html">Thumnail/Banner</a></li>
+              
+                </ul>
+            </li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        
+        <!-- <a href="contact.html" class="navb2-button">Contact Us</a>
+        <a href="login.html" class="navb2-button">Login</a>
+        <a href="register.html" class="navb2-button">Register</a> -->
+
+<div class="navb2-buttons">
+            <a href="contact.html" class="navb2-button">Contact Us</a>
+            <a href="login.html" class="navb2-button navb2-button-secondary">Login</a>
+            <a href="register.html" class="navb2-button navb2-button-secondary">Register</a>
+        </div>
+    </nav>
+
+    </nav>
+
+<script>
+    function toggleMenu() {
+    const menu = document.querySelector('.navb2-menu');
+    const hamburger = document.querySelector('.navb2-hamburger');
+    // Select the new button container
+    const buttons = document.querySelector('.navb2-buttons');
+
+    menu.classList.toggle('navb2-active');
+    hamburger.classList.toggle('navb2-active');
+}
+</script>
+    <!-- Main Container -->
+    <div class="container mx-auto px-4 sm:px-6 py-12 md:py-24">
+        
+        <!-- Header Section -->
+        <div class="text-center mb-12 md:mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Our Portfolio</h1>
+            <p class="text-lg text-gray-400 max-w-3xl mx-auto">
+                A collection of our finest work and creative projects.
+            </p>
+        </div>
+        
+        <!-- Portfolio Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 md:gap-8">
+            
+            <!-- Portfolio Item 1 -->
+            <!-- Aap yahan apni image daal sakte hain -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
+                <div class="aspect-w-1 aspect-h-1">
+                    <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="imgs/4.avif" alt="Portfolio sample 1" onerror="this.onerror=null;this.src='https://placehold.co/600x600/2c2f33/FFFFFF?text=Image';">
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 2 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
+                <div class="aspect-w-1 aspect-h-1">
+                     <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/logo/ChatGPT Image Jul 23, 2025, 11_15_50 AM.png" alt="Portfolio sample 2" onerror="this.onerror=null;this.src='https://placehold.co/600x600/2c2f33/FFFFFF?text=Image';">
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 3 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
+                <div class="aspect-w-1 aspect-h-1">
+                     <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="imgs/6.webp" alt="Portfolio sample 3" onerror="this.onerror=null;this.src='https://placehold.co/600x600/2c2f33/FFFFFF?text=Image';">
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 4 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
+                <div class="aspect-w-1 aspect-h-1">
+                     <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="imgs/5.jpg" alt="Portfolio sample 4" onerror="this.onerror=null;this.src='https://placehold.co/600x600/2c2f33/FFFFFF?text=Image';">
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 5 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
+                <div class="aspect-w-1 aspect-h-1">
+                     <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/logo/image (1).png" alt="Portfolio sample 5" onerror="this.onerror=null;this.src='https://placehold.co/600x600/2c2f33/FFFFFF?text=Image';">
+                </div>
+            </div>
+
+            <!-- Portfolio Item 8 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
+                <div class="aspect-w-1 aspect-h-1">
+                     <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/logo/New Project (17).png" alt="Portfolio sample 8" onerror="this.onerror=null;this.src='https://placehold.co/600x600/2c2f33/FFFFFF?text=Image';">
+                </div>
+            </div>
+
+            <!-- Portfolio Item 9 -->
+       
+
+            <!-- Portfolio Item 10 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
+                <div class="aspect-w-1 aspect-h-1">
+                     <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/logo/New Project (2).png" alt="Portfolio sample 10" onerror="this.onerror=null;this.src='https://placehold.co/600x600/2c2f33/FFFFFF?text=Image';">
+                </div>
+            </div>
+                        <!-- Portfolio Item 6 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
+                <div class="aspect-w-1 aspect-h-1">
+                     <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="imgs/4.avif" alt="Portfolio sample 6" onerror="this.onerror=null;this.src='https://placehold.co/600x600/2c2f33/FFFFFF?text=Image';">
+                </div>
+            </div>
+            <!-- Portfolio Item 10 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
+                <div class="aspect-w-1 aspect-h-1">
+                     <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="imgs/2.png" alt="Portfolio sample 10" onerror="this.onerror=null;this.src='https://placehold.co/600x600/2c2f33/FFFFFF?text=Image';">
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 7 -->
+            <div class="bg-[#2c2f33] rounded-2xl overflow-hidden group transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
+                <div class="aspect-w-1 aspect-h-1">
+                     <!-- Image ko yahan badlein -->
+                    <img class="object-cover w-full h-full" src="img1/logo/New Project (15).jpg" alt="Portfolio sample 7" onerror="this.onerror=null;this.src='https://placehold.co/600x600/2c2f33/FFFFFF?text=Image';">
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+    </div>
+
+
+       
+    <div class="bgfooter">
+            <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Address</h3>
+                <p>OKara Cantt <br> Okara, Punjab Pakistan.</p>
+                <button class="contact-btn">Contact Us</button>
+            </div>
+            <div class="footer-column">
+                <h3>Say Hello</h3>
+                <a href="mailto:contact@daniyalali.com">hussain0786cit@gmail</a>
+                <span class="phone-number">+92 3327679125</span>
+            </div>
+            <div class="footer-column">
+                <h3>Portfolio</h3>
+                <ul>
+                    <li><a href="portfolio.html">Logo Design</a></li>
+                    <li><a href="portfolio.html">Packaging Design</a></li>
+                    <li><a href="portfolio.html">Social Media Post</a></li>
+                    <li><a href="portfolio.html">Branding</a></li>
+                    <li><a href="portfolio.html">Motion Graphics</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="logo">FAQIR HUSSAIN</div>
+            <div class="copyright">
+                &copy; 2025 Copyright FAQIR HUSSAIN
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
+
+
+
+
